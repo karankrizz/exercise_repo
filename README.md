@@ -1,2 +1,2 @@
 # exercise_repo
-for  learning fullstack development 
+> For practising the learned topics
