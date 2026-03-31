@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Forms types
+    </title>
+</head>
+
+<body>
+
+    <div class="title">
+        <h1><u>Registration Form </u></h1>
+    </div>
+
+    <form>
+        <div class="row">
+            <label for="Name">
+                Candidate Name
+                <span style="color: red;"> * </span>
+            </label>
+            <input type="text" name="canditate-name" id="text-input" placeholder="Enter your name" max="50" required />
+
+        </div> &nbsp;&nbsp;
+
+
+
+        <div class="row">
+            <label for="credential">
+                Password
+                <span style="color: red;"> * </span>
+
+            </label>
+            <input type="password" name="canditate-password" id="credential" placeholder="Enter your password"
+                minlength="8" required />
+        </div> &nbsp;&nbsp;
+
+
+
+        <div class="row">
+            <label for="dummy-email">
+                Email
+                <span style="color: red;"> * </span>
+
+            </label>
+            <input type="email" name="Candidate-email" id="dummy-email" placeholder="Enter your email" required />
+        </div> &nbsp;&nbsp;
+
+
+
+        <div class="row">
+            <label for="dummy-dob">
+                dob
+                <span style="color: red;"> * </span>
+            </label>
+            <input type="date" name="Candidate-dob" id="dummy-dob" max="2008-03-29" required />
+        </div> &nbsp;&nbsp;
+
+
+        <div class="row">
+            <label for="dummy-time">
+                Date with time
+                <span style="color: red;"> * </span>
+            </label>
+            <input type="datetime-local" name="Canditate-dob-time" id="dummy-time" required />
+        </div> &nbsp;&nbsp;
+
+
+        <div class="row">
+            <label for="age">
+                Age
+                <span style="color: red;"> * </span>
+
+            </label>
+            <input type="number" name="sample-text" id="age" max="99" min="18" required />
+        </div> &nbsp;&nbsp;
+
+
+        <div class="row">
+            <label for="Mobile_number">
+                Mobile number
+                <span style="color: red;"> * </span>
+            </label>
+            <input type="tel" name="mobile" id="Mobile_number" pattern="[0-9]{10}" required />
+        </div> &nbsp;&nbsp;
+
+
+
+        <div class="row">
+            <label for="checkbox">
+                Language
+                <span style="color: red;"> * </span>
+            </label>
+            <input type="checkbox" name="lang" id="lang[]" value="tamil" required /> Tamil
+            <input type="checkbox" name="lang" id="lang[]" value="English" required /> English
+
+            <input type="checkbox" name="lang" id="lang[]" value="Hindi" required /> Hindi
+        </div> &nbsp;&nbsp;
+
+
+
+        <div class="row">
+            <label for="gender">
+                Gender
+                <span style="color: red;"> * </span>
+            </label>
+            <input type="radio" name="gender" id="gender" value="Male" required />Male
+
+            <input type="radio" name="gender" id="gender" value="Female" required /> Female
+        </div> &nbsp;&nbsp;
+
+
+
+        <div class="row">
+            <label for="file-upload">
+                File
+                <span style="color: red;"> * </span>
+
+            </label>
+
+            <input type="file" name="file" id="file-upload" />
+
+        </div> &nbsp;&nbsp;
+
+
+
+
+        <div class="row">
+            <label for="address">
+                Address
+                <span style="color: red;"> * </span>
+            </label>
+
+            <textarea
+
+             name="address"
+             id="address" 
+             rows="10" 
+             cols="30"
+             placeholder="ex.Address"
+             
+             ></textarea>
+        </div> &nbsp;&nbsp;
+
+
+
+        <div class="select-box">
+
+            <label for="degree-dummy">
+                Degree
+                <span style="color: red;"> * </span>
+            </label>
+
+            <select name="degree-dummy" required>
+
+                <option value="">choose degree</option>
+                <option value="bsc computer ">bsc computer</option>
+                <option value="bsc maths">bsc maths </option>
+
+            </select>
+
+
+        </div> &nbsp;&nbsp;
+        <div class="row">
+
+            <input type="submit" value="Register" />
+            <input type="button" value="cancel" />
+
+
+        </div> &nbsp;&nbsp;
+
+    </form>
+</body>
+
+</html>
